@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-bo">
+          <img src="./assets/images/profile_picture.png" alt="Oumayma BESBES" width="110" height="150" loading="lazy">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Oumayma BESBES">Oumayma BESBES</h1>
+
+          <p class="title">Spécialiste en Webmarketing</p>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contact information</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:oumayma.besbesob@gmail.com" class="contact-link">oumayma.besbesob@ <br> gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+33753509670" class="contact-link">+33 7 53 50 96 70</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Adresse</p>
+
+              <address>Paris, FRANCE</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="http://linkedin.com/in/oumayma-besbes" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Profile</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experiences</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="profile" data-page="profile">
+
+        <header>
+          <h2 class="h2 article-title">A propos de moi ..</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Grâce à ma formation en marketing digital et à mon intérêt marqué pour le web design et l’expérience
+            utilisateur, j’ai développé une véritable passion pour la création d’expériences digitales intuitives et
+            centrées sur l’utilisateur. Au sein d’entreprises internationales, j’ai géré des contenus web, piloté des
+            initiatives de design et collaboré à des projets liés au SEO, au branding et à l’utilisation de CMS tels que
+            WordPress, PrestaShop et Drupal.
+          </p>
+
+          <p>
+            Mon parcours multidisciplinaire, allant du design produit à la stratégie digitale, a affiné mon sens de la
+            conception fonctionnelle et visuelle.
+            Actuellement en Master Stratégie Digitale à Grenoble École de Management, je souhaite aujourd’hui
+            approfondir mes compétences en UX/UI design afin de concevoir des solutions à la fois performantes et
+            véritablement adaptées aux besoins des utilisateurs.
+          </p>
+        </section>
+
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Ce Que Je Sais Faire ..</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Marketing Digital</h4>
+
+                <p class="service-item-text">
+                  SEO, SEA, stratégie social media, création de contenu et gestion de campagnes pour renforcer la
+                  visibilité et la performance des marques.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Webmastering</h4>
+
+                <p class="service-item-text">
+                  Création et mise à jour de sites web, gestion de CMS (WordPress, PrestaShop, Drupal).
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design</h4>
+
+                <p class="service-item-text">
+                  Création de supports visuels (bannières, maquettes, visuels pour les réseaux sociaux, présentations,
+                  etc.) en cohérence avec l’identité de marque et les objectifs marketing
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Collaboration UX/UI</h4>
+
+                <p class="service-item-text">
+                  Participation à la conception d’expériences utilisateurs intuitives et centrées sur les besoins réels,
+                  tout en respectant les objectifs business.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Analytics</h4>
+
+                <p class="service-item-text">
+                  Suivi des données et analyse des performances à l’aide d’outils comme Google Analytics et Tag Manager
+                  pour appuyer les décisions stratégiques.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- 
+        - # EXPERIENCES
+      -->
+      <article class="experiences" data-page="experiences">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formation</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mastère Spécialisé Manager des Stratégies Digitales</h4>
+              <span>Grenoble Ecole de Management</span>
+              <span>Septembre 2024 | Paris, France</span>
+              <p class="timeline-text">
+                Actuellement inscrite au Mastère Spécialisé "Manager des Stratégies Digitales" à Grenoble Ecole de
+                Management, campus de Paris. Ce programme vise à former des experts capables de piloter des projets de
+                transformation digitale dans des environnements complexes.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Programme d’échange : 2ème année Master en Marketing Digital</h4>
+              <span>Y SCHOOLS</span>
+              <span>Septembre 2023 - Janvier 2024 | Troyes, France</span>
+              <p class="timeline-text">
+                Participation à un programme d’échange à Y SCHOOLS dans le cadre de la 2ème année de Master en Marketing
+                Digital. Expérience immersive dans un environnement académique international axé sur la stratégie
+                digitale.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mastère en Marketing Digital</h4>
+              <span>International School of Business</span>
+              <span>Octobre 2022 - Juillet 2024 | Sfax, Tunisie</span>
+              <p class="timeline-text">
+                Mastère en Marketing Digital obtenu à l’International School of Business de Sfax. Le cursus couvrait des
+                domaines clés tels que le marketing numérique, le branding, l’e-commerce et l’analyse des données.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Licence en Design Produit</h4>
+              <span>Institut Supérieur des Arts et Métiers</span>
+              <span>Septembre 2017 - Juin 2020 | Sfax, Tunisie</span>
+              <p class="timeline-text">
+                Diplômée d’une licence en Design Produit à l’Institut Supérieur des Arts et Métiers de Sfax. Formation
+                axée sur la conception industrielle, l’innovation produit, et le développement de solutions créatives et
+                fonctionnelles.
+              </p>
+            </li>
+
+          </ol>
+
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Professional Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Apprentie en Communication Web et Événementiel</h4>
+              <span>OPmobility</span>
+              <span>Septembre 2024 – Actuellement | Levallois, France</span>
+              <p class="timeline-text">
+                ● Gérer et mettre à jour le contenu web.<br>
+                ● Contribution à l’organisation d’événements.<br>
+                ● Soutien à la création de supports visuels et de contenus digitaux.<br>
+                ● Mise à jour régulière de la plateforme TopMedia.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Chargée contenu et webmarketing</h4>
+              <span>EDHEC Business School</span>
+              <span>Mars 2024 – Août 2024 | Paris, France</span>
+              <p class="timeline-text">
+                ● Participation à la création et à la mise en œuvre d'une stratégie SEO sur le CMS Drupal.<br>
+                ● Création de contenu pour améliorer la visibilité et le classement sur les pages de résultats des
+                moteurs de recherche.<br>
+                ● Analyse des KPIs à l'aide d'AT Internet, SEMrush et Hootsuite.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Responsable marketing digital</h4>
+              <span>JOLIESSE</span>
+              <span>Décembre 2022 – Juillet 2023 | Sfax, Tunisie</span>
+              <p class="timeline-text">
+                ● Collecte et analyse de données marketing pour éclairer les décisions stratégiques.<br>
+                ● Établissement et évaluation de 15 partenariats stratégiques, garantissant une augmentation de 10% du
+                ROI.<br>
+                ● Supervision des canaux digitaux, y compris les réseaux sociaux, l'email marketing et le référencement
+                web.<br>
+                ● Supervision de la création de contenu pour 11 campagnes (vidéos, photos, infographies).<br>
+                ● Conception d'une stratégie marketing digital, générant 40k nouveaux followers sur Instagram et 50k sur
+                Facebook.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Manager Marketing et Export</h4>
+              <span>BUFERA TEXTILE</span>
+              <span>Mars 2022 – Novembre 2022 | Bursa, Turquie</span>
+              <p class="timeline-text">
+                ● Mise en place de stratégies efficaces de génération de leads augmentant la base de prospects de
+                40%.<br>
+                ● Utilisation d'outils de marketing digital pour attirer des prospects qualifiés.<br>
+                ● Gestion du processus d'exportation de 10 portefeuilles.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Chargée du bureau d’ordre régional</h4>
+              <span>TABC</span>
+              <span>Janvier 2021 – Mars 2022 | Sfax, Tunisie</span>
+              <p class="timeline-text">
+                ● Direction des activités administratives et commerciales, augmentant les portefeuilles de 7 à 94 par
+                an.<br>
+                ● Organisation de 2 congrès, 4 événements, et 10 webinaires B2B, avec une augmentation de +70% des
+                participants.<br>
+                ● Supervision de la gestion de la base de données clients.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Technico-commerciale</h4>
+              <span>Yessmine meuble</span>
+              <span>Novembre 2020 – Janvier 2021 | Sfax, Tunisie</span>
+              <p class="timeline-text">
+                ● Collaboration avec les clients pour définir leurs besoins et préférences en matière de design.<br>
+                ● Création de propositions de conception personnalisées utilisant SketchUp, AutoCAD et KitchenDraw.
+              </p>
+            </li>
+
+          </ol>
+
+
+        </section>
+
+        <section class="skills">
+
+          <div class="skills-container">
+
+            <!-- Existing categories here (Technical Skills, Frameworks, Tools) -->
+
+            <div class="skills-category">
+              <h4 class="h4">Marketing & Event Tools</h4>
+              <ul class="skills-list">
+                <li><i class="skill-icon"></i> HubSpot</li>
+                <li><i class="skill-icon"></i> MailChimp</li>
+                <li><i class="skill-icon"></i> Sendinblue</li>
+                <li><i class="skill-icon"></i> Digitevent</li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4">SEO & Social Tools</h4>
+              <ul class="skills-list">
+                <li><i class="skill-icon"></i> Google Search Console</li>
+                <li><i class="skill-icon"></i> SEMrush</li>
+                <li><i class="skill-icon"></i> Screaming Frog</li>
+                <li><i class="skill-icon"></i> Hootsuite</li>
+              </ul>
+            </div>
+
+
+
+            <div class="skills-category">
+              <h4 class="h4">Productivity Suites</h4>
+              <ul class="skills-list">
+                <li><i class="skill-icon"></i> Microsoft Word</li>
+                <li><i class="skill-icon"></i> Microsoft Excel</li>
+                <li><i class="skill-icon"></i> Microsoft PowerPoint</li>
+                <li><i class="skill-icon"></i> Google Docs</li>
+                <li><i class="skill-icon"></i> Google Sheets</li>
+                <li><i class="skill-icon"></i> Google Slides</li>
+                <li><i class="skill-icon"></i> Google Forms</li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4">Data Analytics</h4>
+              <ul class="skills-list">
+                <li><i class="skill-icon"></i> Matomo</li>
+                <li><i class="skill-icon"></i> AT Internet</li>
+                <li><i class="skill-icon"></i> Google Analytics</li>
+                <li><i class="skill-icon"></i> Google Tag Manager</li>
+                <li><i class="skill-icon"></i> Power BI</li>
+                <li><i class="skill-icon"></i> RStudio</li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4">CMS</h4>
+              <ul class="skills-list">
+                <li><i class="skill-icon"></i> WordPress</li>
+                <li><i class="skill-icon"></i> PrestaShop</li>
+                <li><i class="skill-icon"></i> Drupal</li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4">Digital Advertising</h4>
+              <ul class="skills-list">
+                <li><i class="skill-icon"></i> Google Ads</li>
+                <li><i class="skill-icon"></i> Meta Business Suite</li>
+                <li><i class="skill-icon"></i> LinkedIn Ads</li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4">Design Tools</h4>
+              <ul class="skills-list">
+                <li><i class="skill-icon"></i> Adobe Illustrator</li>
+                <li><i class="skill-icon"></i> Adobe Photoshop</li>
+                <li><i class="skill-icon"></i> Canva</li>
+                <li><i class="skill-icon"></i> Figma</li>
+              </ul>
+            </div>
+
+
+
+          </div>
+
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn="all">All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Digital Campaigns</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile App Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Paintings and Sketchings</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Digital Campaigns</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile App Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Paintings and Sketchings</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="digital campaigns">
+              <a href="https://joliesse.com.tn/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Joliesse-hp.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Joliesse</h3>
+
+                <p class="project-category">Création et intégration de la boutique en ligne: mise en page des produits,
+                  optimisation de l’expérience utilisateur, choix des visuels, et adaptation mobile. </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="digital campaigns">
+              <a href="https://www.opmobility.com/fr/international-finance-graduate-program-fr/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/opMobility-carriere.png" alt="OPmobility Carrière" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OPmobility Carrière</h3>
+
+                <p class="project-category">Conception complète de la page “International Finance Graduate Program” :
+                  design UI, structuration du contenu, rédaction optimisée pour le web, et respect de la charte
+                  graphique de l’entreprise.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="digital campaigns">
+              <a href="https://www.opmobility.com/en/direct-from-ces-vegas-2025/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/opMobility-ces-la.png" alt="OPmobility" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OPmobility CES Las Vegas 2025</h3>
+
+                <p class="project-category">Création de la page “Direct from CES Vegas 2025” : valorisation des temps
+                  forts du salon, mise en avant des innovations OPmobility.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="digital campaigns">
+              <a href="https://www.opmobility.com/en/opmobility-and-mit-are-organizing-their-symposium-2024-in-paris/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/opMobility-mit.png" alt="OPmobility" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OPmobility MIT symposium 2024</h3>
+
+                <p class="project-category">Conception de la page web “OPmobility and MIT organised their symposium 2024
+                  in Paris!” : design et création de contenu pour présenter l’événement coorganisé avec le MIT, en
+                  valorisant les thématiques d’innovation et de mobilité durable au cœur du symposium.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="digital campaigns">
+              <a href="https://www.edhec.edu/fr/news/comment-cultiver-l-intelligence-collective-au-sein-de-son-equipe">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/edhec1.png" alt="Comment Cultiver l'Intelligence Collective" loading="lazy">
+                </figure>
+                <h3 class="project-title">Comment Cultiver l'Intelligence Collective au Sein de son Équipe ?</h3>
+                <p class="project-category">Conception de la page “Comment cultiver l’intelligence collective au sein de
+                  son équipe” : création de contenu, sélection des visuels et intégration sur le CMS de l’EDHEC, en
+                  cohérence avec la ligne éditoriale de l’école.</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="digital campaigns">
+              <a href="https://www.edhec.edu/fr/news/impact-action-learning-edhec-executive-education">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/edhec3.png" alt="Impact de l'Action Learning" loading="lazy">
+                </figure>
+                <h3 class="project-title">L’impact transformateur de l'Action Learning</h3>
+                <p class="project-category">Conception de la page “ L’impact de l’Action Learning à l’EDHEC Executive
+                  Education”, sélection des visuels et intégration sur le CMS, en accord avec la ligne éditoriale de
+                  l’école.</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile app design">
+              <a href="https://www.figma.com/design/a8H9rMysVVnW0nEycEPoIf/Untitled?node-id=0-1&t=XiSfrXei1iKmiiHH-1">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/babease.png" alt="Babyease" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Babyease</h3>
+
+                <p class="project-category">Conçue sur Figma, cette application accompagne les mères après
+                  l’accouchement en leur permettant de suivre les informations clés de leur bébé (âge, poids, taille),
+                  de stocker des photos, et d’organiser leur emploi du temps via un agenda visuel et intuitif.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="graphic design">
+              <a href="#" onclick="openImageModal(event, './assets/images/aelin.png')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/aelin.png" alt="Aelin" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aelin</h3>
+                <p class="project-category">Création complète de l’image de marque : nom poétique inspiré du halo
+                  lunaire, logo, palette de couleurs naturelles, typographies et moodboard. </p>
+              </a>
+            </li>
+
+            <!-- Sketch items -->
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch1.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch1.jpg" alt="Sketch 1" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 1</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch2.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch2.jpg" alt="Sketch 2" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 2</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch3.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch3.jpg" alt="Sketch 3" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 3</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch4.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch4.jpg" alt="Sketch 4" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 4</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch5.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch5.jpg" alt="Sketch 5" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 5</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch6.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch6.jpg" alt="Sketch 6" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 6</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch7.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch7.jpg" alt="Sketch 7" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 7</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch8.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch8.jpg" alt="Sketch 8" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 8</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch9.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch9.jpg" alt="Sketch 9" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 9</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="paintings and sketchings">
+              <a href="#" onclick="openImageModal(event, './assets/images/appytoons/sketch10.jpg')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/appytoons/sketch10.jpg" alt="Sketch 10" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sketch 10</h3>
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- sweetalert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
